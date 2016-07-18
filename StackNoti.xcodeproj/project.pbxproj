@@ -14,6 +14,8 @@
 		AFB7D9281D38B2A000713140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB7D9261D38B2A000713140 /* LaunchScreen.storyboard */; };
 		AFB7D9331D38B2A000713140 /* StackNotiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7D9321D38B2A000713140 /* StackNotiTests.swift */; };
 		AFB7D93E1D38B2A000713140 /* StackNotiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7D93D1D38B2A000713140 /* StackNotiUITests.swift */; };
+		AFB7D94C1D38B2AD00713140 /* StatkNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7D94B1D38B2AD00713140 /* StatkNotifier.swift */; };
+		AFB7D94E1D38B73C00713140 /* StatkNotifierInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7D94D1D38B73C00713140 /* StatkNotifierInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AFB7D9391D38B2A000713140 /* StackNotiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackNotiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB7D93D1D38B2A000713140 /* StackNotiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackNotiUITests.swift; sourceTree = "<group>"; };
 		AFB7D93F1D38B2A000713140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB7D94B1D38B2AD00713140 /* StatkNotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatkNotifier.swift; sourceTree = "<group>"; };
+		AFB7D94D1D38B73C00713140 /* StatkNotifierInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatkNotifierInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				AFB7D9241D38B2A000713140 /* Assets.xcassets */,
 				AFB7D9261D38B2A000713140 /* LaunchScreen.storyboard */,
 				AFB7D9291D38B2A000713140 /* Info.plist */,
+				AFB7D94B1D38B2AD00713140 /* StatkNotifier.swift */,
+				AFB7D94D1D38B73C00713140 /* StatkNotifierInfo.swift */,
 			);
 			path = StackNoti;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB7D9201D38B2A000713140 /* ViewController.swift in Sources */,
+				AFB7D94E1D38B73C00713140 /* StatkNotifierInfo.swift in Sources */,
 				AFB7D91E1D38B2A000713140 /* AppDelegate.swift in Sources */,
+				AFB7D94C1D38B2AD00713140 /* StatkNotifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
